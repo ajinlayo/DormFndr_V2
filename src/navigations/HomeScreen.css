@@ -1,0 +1,33 @@
+.home-screen {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.homepage-container {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 130px; /* Adjust the top position as needed */
+  left: 30px;
+  width: 1396px;
+  height: 669px;
+  z-index: 1;
+}
